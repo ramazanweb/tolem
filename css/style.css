@@ -3,13 +3,13 @@ Author: Rajesh-Doot
 File Description: Main CSS file of the template*/
 
 /*scrollbar theme*/
-::-webkit-scrollbar {width:3px;}
+::-webkit-scrollbar {width:8px;}
 ::-webkit-scrollbar-track { background: #e8e8e8;}
-::-webkit-scrollbar-thumb:hover {background: #fb5496;}
+::-webkit-scrollbar-thumb:hover {background: #018f41;}
 ::-webkit-scrollbar-thumb {
-background-image: -webkit-linear-gradient(45deg, #ffbd84, #ff1f8e);
-background-image: -o-linear-gradient(45deg, #ffbd84, #ff1f8e);
-background-image: linear-gradient(45deg, #ffbd84, #ff1f8e);}
+background-image: -webkit-linear-gradient(45deg,  #018f41, #0AD37E);
+background-image: -o-linear-gradient(45deg,  #018f41, #0AD37E) ;
+background-image: linear-gradient(45deg,  #018f41, #0AD37E);}
 /*Default css*/
 ::-moz-selection {background: rgba(166, 175, 189, 0.3);}
 ::selection {background: rgba(166, 175, 189, 0.3);}
@@ -1126,7 +1126,7 @@ height: 35px;
 display: inline-block;
 text-align: center;
 line-height: 34px;}
-.copyright{  text-align: center; color: #6a6a8e;}
+.copyright{  text-align: center; color: #777777;}
 .footer-social-media-icons{margin: 0 0 30px 0;}
 .footer- p a{color:#6a6a8e;}
 .link-hover a {
