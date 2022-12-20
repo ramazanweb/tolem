@@ -45,7 +45,7 @@ $(document).ready(function() {
             description: "Please brief about your project"
         },
         errorPlacement: function(error, element) {
-            var newelement = element.next('label').next('div');
+            let newelement = element.next('label').next('div');
             newelement.html(error);
         },
         submitHandler: function() {
