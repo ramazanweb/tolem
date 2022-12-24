@@ -434,6 +434,8 @@
         css('background-image', 'url(' + $(this).attr('data-background') + ')');
   });
 
+  $('#nowYear').html(new Date().getFullYear());
+
   //end of page
 })(jQuery);
   
